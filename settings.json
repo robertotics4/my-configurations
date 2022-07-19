@@ -1,0 +1,123 @@
+{
+  // VS CODE SETTINGS
+  "editor.fontFamily": "Jetbrains Mono",
+  // "editor.fontWeight": "470",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 26,
+  "editor.semanticHighlighting.enabled": false,
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontWeight": "480",
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnPaste": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "workbench.colorTheme": "Omni",
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools",
+    "kube": "kubernetes"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "files.autoSave": "afterDelay",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "window.zoomLevel": 0,
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+  "eslint.options": {},
+  "tabnine.experimentalAutoImports": true,
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "cSpell.language": "en,pt",
+  "editor.suggestSelection": "first",
+  "cSpell.userWords": [
+    "chakra",
+    "middlewares",
+    "prefetch",
+    "rocketseat"
+  ],
+  "workbench.productIconTheme": "fluent-icons",
+  "terminal.integrated.showExitAlert": false,
+  "splitHTMLAttributes.closingBracketOnNewLine": true
+}
